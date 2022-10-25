@@ -17,7 +17,9 @@ export const HomeTitle = styled.h1`
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color: ${theme.colors.primaryBgColor};
+    padding: .2rem;
+    background-color: black;
+    color: ${theme.colors.thirdBgColor};
     ${theme.mixins.logoStyle};
   `}
 `;
@@ -34,8 +36,10 @@ export const HomeSection = styled.section`
 export const HomeDescription = styled.p`
   ${({ theme }) => css`
     font-style: oblique;
+    font-size: 8rem;
     ${theme.mixins.bodyStyle}
     color: ${theme.colors.titleColor};
+    background-color: black;
     ::selection {
       background: transparent;
       color: ${theme.colors.textColor};
@@ -45,8 +49,8 @@ export const HomeDescription = styled.p`
 
 export const IconLog = styled.i`
   ${({ theme }) => css`
-    font-size: 6rem;
-    color: ${theme.colors.primaryBgColor};
+    font-size: 8rem;
+    color: ${theme.colors.thirdBgColor};
     margin: 2rem auto;
     cursor: pointer;
     transition: all ease-in-out 0.6s;

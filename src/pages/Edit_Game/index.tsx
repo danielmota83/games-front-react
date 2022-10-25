@@ -1,10 +1,10 @@
-import ContainerForm from "components/ContainerForm";
-import ReturnPage from "components/ReturnPage";
+import ContainerForm from "../../components/ContainerForm";
+import ReturnPage from "../../components/ReturnPage";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { GetGames } from "Service/gamesService";
+import { GetGames } from "../../Service/gamesService";
 import swal from "sweetalert";
-import { CreateGameType } from "types/interfaces";
+import { CreateGameType } from "../../types/interfaces";
 import * as Style from "./style";
 
 const EditGameId = () => {

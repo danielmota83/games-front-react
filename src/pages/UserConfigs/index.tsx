@@ -1,11 +1,11 @@
-import ChangePassword from "components/ChangePassword";
-import ContainerForm from "components/ContainerForm";
-import ReturnPage from "components/ReturnPage";
+import ChangePassword from "../../components/ChangePassword";
+import ContainerForm from "../../components/ContainerForm";
+import ReturnPage from "../../components/ReturnPage";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { User } from "Service/userService";
+import { User } from "../../Service/userService";
 import swal from "sweetalert";
-import { UserType } from "types/interfaces";
+import { UserType } from "../../types/interfaces";
 import * as Style from "./style";
 
 const UserConfigs = () => {

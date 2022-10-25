@@ -1,12 +1,12 @@
-import CardGames from "components/CardGames/List";
-import GenrerOption from "components/GenrerOption/GenrerOption";
-import ReturnPage from "components/ReturnPage";
-import SearchGames from "components/Search/Games";
+import CardGames from "../../components/CardGames/List";
+import GenrerOption from "../../components/GenrerOption/GenrerOption";
+import ReturnPage from "../../components/ReturnPage";
+import SearchGames from "../../components/Search/Games";
 import React, { useEffect, useState } from "react";
 import ReactStars from "react-stars";
 import { useNavigate } from "react-router-dom";
-import { GetGames } from "Service/gamesService";
-import { GamesTypes } from "types/interfaces";
+import { GetGames } from "../../Service/gamesService";
+import { GamesTypes } from "../../types/interfaces";
 import * as Style from "./style";
 
 const LibraryAllGames = () => {

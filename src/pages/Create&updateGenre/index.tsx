@@ -1,10 +1,10 @@
-import ReturnPage from 'components/ReturnPage'
+import ReturnPage from '../../components/ReturnPage'
 import * as Style from './style'
 import { useNavigate } from 'react-router-dom'
-import ContainerForm from 'components/ContainerForm';
+import ContainerForm from '../../components/ContainerForm';
 import React, { useEffect, useState } from 'react';
-import { CreateGenrerType, GenrerTypes } from 'types/interfaces';
-import { Genrers } from 'Service/genrerService';
+import { CreateGenrerType, GenrerTypes } from '../../types/interfaces';
+import { Genrers } from '../../Service/genrerService';
 import swal from "sweetalert";
 
 const CrudGenrer = () => {
@@ -172,15 +172,3 @@ const CrudGenrer = () => {
 
 export default CrudGenrer
 
-{/* <script type="text/javascript">
-            function update() {
-                var select = document.getElementById('gender');
-                var option = select.options[select.selectedIndex];
-
-                document.getElementById('value').value = option.value;
-                document.getElementById('text').value = option.text;
-            }
-
-            update();
-    </script>
-   */}

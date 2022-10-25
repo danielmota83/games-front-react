@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import './home-style'
-import { SiXbox } from 'react-icons/si'
+import { CgGames } from 'react-icons/cg'
 import * as Style from './home-style'
 
 const Home = () => {
@@ -8,15 +8,16 @@ const Home = () => {
 
   const handleNavigate = () => {
     navigate('/login')
+    
   }
 
   return (
     <Style.Home>
-      <Style.HomeTitle>Bem vindo a Xbox Live</Style.HomeTitle>
+      <Style.HomeTitle>Bem vindo ao Super Nintendo Retro</Style.HomeTitle>
 
       <Style.HomeSection>
-        <Style.HomeDescription>Clique no botão abaixo para fazer seu login</Style.HomeDescription>
-        <Style.IconLog><SiXbox onClick={handleNavigate}/></Style.IconLog>
+        <Style.HomeDescription>Clique no controle para fazer o seu login</Style.HomeDescription>
+        <Style.IconLog><CgGames onClick={handleNavigate}/></Style.IconLog>
       </Style.HomeSection>
     </Style.Home>
   )

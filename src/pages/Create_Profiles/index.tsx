@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import * as Style from "./styles";
-import Avatar01 from "assets/img/avatar_1.png";
-import ReturnPage from "components/ReturnPage";
-import ContainerForm from "components/ContainerForm";
-import { ProfilesTypes } from 'types/interfaces'
+import Avatar01 from "../../assets/img/avatar_1.png";
+import ReturnPage from "../../components/ReturnPage";
+import ContainerForm from "../../components/ContainerForm";
+import { ProfilesTypes } from '../../types/interfaces'
 import React, { useState } from "react";
 import swal from "sweetalert";
-import { Profiles } from 'Service/profileService'
+import { Profiles } from '../../Service/profileService'
 
 const CreateProfile = () => {
   const navigate = useNavigate();

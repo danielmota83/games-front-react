@@ -1,15 +1,15 @@
-import ReturnPage from "components/ReturnPage";
-import Edit from "assets/icon/edit_profile.svg";
+import ReturnPage from "../../components/ReturnPage";
+import Edit from "../../assets/icon/edit_profile.svg";
 import { AiOutlineDelete } from "react-icons/ai";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { GetGames } from "Service/gamesService";
-import { GamesTypes } from "types/interfaces";
+import { GetGames } from "../../Service/gamesService";
+import { GamesTypes } from "../../types/interfaces";
 import ReactStars from "react-stars";
 import { MdFavoriteBorder } from "react-icons/md";
 import * as Style from "./style";
 import swal from "sweetalert";
-import GameInfos from "components/GameInfos";
+import GameInfos from "../../components/GameInfos";
 
 const GameDefinitions = () => {
   const { id } = useParams();

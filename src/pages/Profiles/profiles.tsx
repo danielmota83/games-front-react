@@ -1,6 +1,6 @@
-import CreateProfileBtn from "components/Create/BtnProfile";
-import ProfilesCards from "components/ProfilesCards";
-import ReturnPage from "components/ReturnPage";
+import CreateProfileBtn from "../../components/Create/BtnProfile";
+import ProfilesCards from "../../components/ProfilesCards";
+import ReturnPage from "../../components/ReturnPage";
 import { useNavigate } from "react-router-dom";
 import * as Style from "./profiles-style";
 

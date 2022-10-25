@@ -1,10 +1,10 @@
-import ContainerForm from "components/ContainerForm";
-import ReturnPage from "components/ReturnPage";
+import ContainerForm from "../../components/ContainerForm/index";
+import ReturnPage from "../../components/ReturnPage";
 import swal from "sweetalert";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { GetGames } from "Service/gamesService";
-import { CreateGameType } from "types/interfaces";
+import { GetGames } from "../../Service/gamesService";
+import { CreateGameType } from "../../types/interfaces";
 import * as Style from "./style";
 
 const CrudGamesGenrer = () => {

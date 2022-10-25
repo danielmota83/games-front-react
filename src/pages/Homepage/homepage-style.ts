@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Games } from "Mocks/Games";
+import { Games } from "../../Mocks/Games";
 
 export const imgUrl = Games.map((games) => games.coverImageUrl);
 

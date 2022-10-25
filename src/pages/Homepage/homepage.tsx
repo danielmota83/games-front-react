@@ -1,12 +1,12 @@
-import CreateGamesAdmin from "components/Create/CreateGames";
-import CreateGenrerAdmin from "components/Create/CreateGenre";
-import ReturnPage from "components/ReturnPage";
+import CreateGamesAdmin from "../../components/Create/CreateGames";
+import CreateGenrerAdmin from "../../components/Create/CreateGenre";
+import ReturnPage from "../../components/ReturnPage";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import ReactStars from "react-stars";
-import { Favorite } from "Service/favoriteService";
-import { Profiles } from "Service/profileService";
-import { FavoriteGamesType, ProfilesTypes } from "types/interfaces";
+import { Favorite } from "../../Service/favoriteService";
+import { Profiles } from "../../Service/profileService";
+import { FavoriteGamesType, ProfilesTypes } from "../../types/interfaces";
 import * as Style from "./homepage-style";
 
 const Homepage = () => {

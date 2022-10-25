@@ -1,12 +1,12 @@
-import CardGames from "components/CardGames/List";
-import GenrerOption from "components/GenrerOption/GenrerOption";
-import ReturnPage from "components/ReturnPage";
-import SearchGames from "components/Search/Games";
+import CardGames from "../../components/CardGames/List";
+import GenrerOption from "../../components/GenrerOption/GenrerOption";
+import ReturnPage from "../../components/ReturnPage";
+import SearchGames from "../../components/Search/Games";
 import { ChangeEvent, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import ReactStars from "react-stars";
-import { HomepageProfile } from "Service/homepageService";
-import { GamesProfile } from "types/interfaces";
+import { HomepageProfile } from "../../Service/homepageService";
+import { GamesProfile } from "../../types/interfaces";
 import * as Style from "./Games-style";
 
 const GamesList = () => {

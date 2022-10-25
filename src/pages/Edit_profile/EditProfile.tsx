@@ -1,13 +1,13 @@
-import ContainerForm from "components/ContainerForm";
-import ReturnPage from "components/ReturnPage";
+import ContainerForm from "../../components/ContainerForm";
+import ReturnPage from "../../components/ReturnPage";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import swal from "sweetalert";
 import { useNavigate } from "react-router-dom";
-import { ProfilesTypes } from "types/interfaces";
-import { Profiles } from "Service/profileService";
+import { ProfilesTypes } from "../../types/interfaces";
+import { Profiles } from "../../Service/profileService";
 import * as Style from "./EditProfile-style";
-import DeleteProfileBtn from "components/Modal/DeleteProfileBtn";
+import DeleteProfileBtn from "../../components/Modal/DeleteProfileBtn";
 
 const EditProfile = () => {
   const navigate = useNavigate();
