@@ -1,6 +1,6 @@
 import Api from "./api";
 import swal from "sweetalert";
-import { AddFavorite } from "types/interfaces";
+import { AddFavorite } from "../types/interfaces";
 
 export const Favorite = {
   GetFavoriteByProfileId: async (id: string) => {

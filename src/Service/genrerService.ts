@@ -1,6 +1,6 @@
 import Api from "./api";
 import swal from "sweetalert";
-import { CreateGenrerType } from "types/interfaces";
+import { CreateGenrerType } from "../types/interfaces";
 
 export const Genrers = {
   AllGenrers: async () => {

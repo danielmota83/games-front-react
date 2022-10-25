@@ -1,6 +1,6 @@
 import Api from "./api";
 import swal from "sweetalert";
-import { UserType } from "types/interfaces";
+import { UserType } from "../types/interfaces";
 
 export const User = {
   GetAllUsers: async () => {

@@ -1,6 +1,6 @@
 import Api from "./api";
 import swal from "sweetalert";
-import { ProfilesTypes } from "types/interfaces";
+import { ProfilesTypes } from "../types/interfaces";
 
 export const Profiles = {
   ProfilesUser: async () => {
