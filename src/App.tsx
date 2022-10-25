@@ -1,6 +1,9 @@
+/* eslint-disable react/jsx-no-undef */
 import { BrowserRouter } from "react-router-dom";
-import { Router } from "react-router-dom";
+import Router from "./router";
+import { ThemeProvider } from "styled-components";
 import "./App.css";
+import theme from "./assets/styles/theme";
 
 function App() {
   return (

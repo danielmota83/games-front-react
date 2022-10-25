@@ -1,10 +1,10 @@
-import Logo from 'assets/img/xbox-black-icon.png';
-import ReturnPage from 'components/ReturnPage';
+import Logo from '../../assets/img/xbox-black-icon.png';
+import ReturnPage from '../../components/ReturnPage';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { RegisterService } from 'Service/authService';
+import { RegisterService } from '../../Service/authService';
 import swal from 'sweetalert';
-import { RegisterUser } from 'types/interfaces';
+import { RegisterUser } from '../../types/interfaces';
 import * as Style from './singup-style';
 
 const SingUp = () => {
