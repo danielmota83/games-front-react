@@ -62,21 +62,15 @@ export const ProfileName = styled.p`
 export const AdminDiv = styled.div`
   ${() => css`
     display: flex;
+   color: #f4f5f9
+
     justify-content: flex-end;
   `}
 `;
 
 export const CardSection = styled.section`
   ${() => css`
-    /* display: grid;
-    justify-self: center;
-    justify-items: center;
-    align-self: center;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem; */
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,10 +146,11 @@ export const InfoCard = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    color: #f4f5f9;
     width: 300px;
     height: auto;
     margin: 1rem;
-    border: 2px solid #000;
+    border: 3px solid #f4f5f9;
     cursor: pointer;
     ${theme.mixins.bodyStyle}
   `}

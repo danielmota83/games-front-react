@@ -1,8 +1,12 @@
 import styled, { css } from "styled-components";
 
+
 export const Login = styled.section`
     ${({theme}) => css`
-        background-color: ${theme.colors.primaryBgColor};
+        /* background-color: ${theme.colors.primaryBgColor}; */
+        background-image: ${theme.constants.loginBackground};
+        background-repeat: no-repeat;
+        background-size: cover;
         min-width: 100vw;
         min-height: 100vh;
         color: ${theme.colors.textColor};

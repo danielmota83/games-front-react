@@ -16,9 +16,10 @@ export const HomeTitle = styled.h1`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 4px 2px #000;
     font-weight: bold;
     padding: .2rem;
-    background-color: black;
+    /* background-color: black; */
     color: ${theme.colors.thirdBgColor};
     ${theme.mixins.logoStyle};
   `}
