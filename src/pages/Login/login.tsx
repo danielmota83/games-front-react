@@ -1,5 +1,5 @@
-import Control from "../../assets/img/controle_xbox.png";
-import Logo from '../../assets/img/xbox-black-icon.png';
+import Control from "../../assets/img/controle.png";
+import Logo from '../../assets/img/snes-icon.png';
 import ReturnPage from "../../components/ReturnPage";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -7,6 +7,7 @@ import { loginService } from "../../Service/authService";
 import swal from "sweetalert";
 import { UserLogin } from "../../types/interfaces";
 import * as Style from "./login-style";
+
 
 const Login = () => {
   const navigation = useNavigate();

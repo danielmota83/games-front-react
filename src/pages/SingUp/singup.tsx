@@ -1,4 +1,4 @@
-import Logo from '../../assets/img/xbox-black-icon.png';
+import Logo from '../../assets/img/snes-icon.png';
 import ReturnPage from '../../components/ReturnPage';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
