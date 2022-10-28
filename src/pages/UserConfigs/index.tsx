@@ -23,7 +23,7 @@ const UserConfigs = () => {
 
   useEffect(() => {
     getUserId();
-  }, []);
+  },[]);
 
   const getUserId = async () => {
     if (id) {
@@ -108,7 +108,7 @@ const UserConfigs = () => {
       buttons: ["Não", "Sim"],
     }).then((resp) => {
       if (resp) {
-        DeleteUser(); // FUNCAO QUE DELETA
+        DeleteUser(); 
       }
     });
   };

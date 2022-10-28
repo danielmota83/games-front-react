@@ -18,7 +18,7 @@ const GamesList = () => {
 
   useEffect(() => {
     gamesProfile();
-  }, []);
+  },[]);
 
   const gamesProfile = async () => {
     if (id) {

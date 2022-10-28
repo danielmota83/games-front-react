@@ -45,7 +45,7 @@ const Homepage = () => {
   useEffect(() => {
     profileInfosId();
     profileFavoriteGames();
-  }, );
+  }, []);
 
   const profileInfosId = async () => {
     if (id) {
