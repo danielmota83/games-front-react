@@ -76,7 +76,7 @@ const BackIcon = () => css`
 `;
 
 const BackgroundProfiles = () => css`
-  background-image: ${constants.xboxWallpaper};
+  background-image: ${constants.SnesWallpaper};
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;

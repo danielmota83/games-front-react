@@ -1,5 +1,5 @@
-import XboxBackground from '../img/xbox-live-background.jpg'
-import XboxWallpaper from '../img/xbox-wallpaper.png'
+import SnesBackground from '../img/snes-background.jpg'
+import SnesWallpaper from '../img/snes-wallpaper.png'
 import BackIcon from '../icon/Voltar.svg'
 import coolBackground from '../img/cool-background.png'
 import AddGames from '../icon/add_game.svg'
@@ -20,9 +20,9 @@ export const constants = {
     bodyFontSize: '1.3rem',
     bodyLineHeight: '140%',
 
-    xboxBackground: `url(${XboxBackground})`,
-    xboxWallpaper: `url(${XboxWallpaper})`,
-    xboxPlayGameBackground: `url(${Standard})`,
+    SnesBackground: `url(${SnesBackground})`,
+    SnesWallpaper: `url(${SnesWallpaper})`,
+    SnesPlayGameBackground: `url(${Standard})`,
     backIcon: `url(${BackIcon})`,
 
     loginBackground: `url(${background})`,

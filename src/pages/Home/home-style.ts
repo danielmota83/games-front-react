@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const Home = styled.main`
   ${({ theme }) => css`
-    background-image: ${theme.constants.xboxBackground};
+    background-image: ${theme.constants.SnesBackground};
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;

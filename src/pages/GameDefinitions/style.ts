@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const MainPage = styled.main`
   ${({ theme }) => css`
     ${theme.mixins.bodyStyle}
-    background-image: ${theme.constants.xboxPlayGameBackground};
+    background-image: ${theme.constants.SnesPlayGameBackground};
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

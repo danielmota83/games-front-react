@@ -21,8 +21,9 @@ export const SepareItems = styled.div`
 export const CreateGenrerIcon = styled.i`
   ${({ theme }) => css`
     background-image: ${theme.constants.createGenresIcon};
-    background-repeat: no-repeat;
+    fill: #f4f5f9;
     color: #f4f5f9;
+    background-repeat: no-repeat;
     width: 62px;
     height: 62px;
     cursor: pointer;
