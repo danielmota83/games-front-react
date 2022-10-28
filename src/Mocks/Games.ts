@@ -1,49 +1,38 @@
 export const Games = [
     {
       id: 1,
-      title: "Halo Infinite",
+      title: "Mortal Kombat",
       coverImageUrl:
-        "https://upload.wikimedia.org/wikipedia/pt/d/d1/Halo_Infinite_capa.png",
+        "https://i.ytimg.com/vi/hTSgASrSZss/maxresdefault.jpg",
       description:
-        "Excelente jogo exclusivo da Microsoft contanto a historia do Master Chef",
-      year: 2021,
-      imbScore: 4,
-      trailerYoutubeUrl: "https://www.youtube.com/watch?v=PyMlV5_HRWk",
-      gameplayYouTubeUrl: "https://www.youtube.com/watch?v=YoWhmo3W2wc",
+        "Mortal Kombat é um jogo de luta lançado nos arcades em 1992, desenvolvido e publicado pela Midway Games, e recebendo versões doméstica para diversos consoles pela Acclaim Entertainment. A história do jogo centra em um torneio de artes marciais com consequências globais, que atrai competidores de variadas origens e propósitos. Desenvolvido em apenas dez meses, o jogo contava com gráficos digitalizados baseados em filmagens de atores reais e se destacou pela violência, com personagens sangrando em cada golpe recebido e podendo realizar Finalizações, executando de forma gráfica e sangrenta um adversário derrotado.",
+      year: 1992,
+      imbScore: 3,
+      trailerYoutubeUrl: "https://www.youtube.com/watch?v=KLxdnMnWAME",
+      gameplayYouTubeUrl: "https://www.youtube.com/watch?v=FfyGqkTiBic",
     },
     {
       id: 2,
-      title: "Forza Horizon 5",
+      title: "NBA JAM",
       coverImageUrl:
-        "https://upload.wikimedia.org/wikipedia/pt/d/dc/Capa_de_Forza_Horizon_5.jpg",
+        "http://www.retroplace.com/pics/snes/packshots/45474--nba-jam-tournament-edition.png",
       description:
-        "Forza Horizon 5 é um jogo eletrônico de corrida desenvolvido pela Playground Games e publicado pela Xbox Game Studios. É o quinto jogo da série Forza Horizon e o décimo segundo título principal da franquia Forza. O jogo se passa em uma representação ficcional do México.",
-      year: 2021,
+        "NBA Jam é um jogo-eletrônico de esporte estilo arcade. Lançado em 1993 pela Midway para arcades, o jogo revolucionou o gênero dos jogo-eletrônicos de basquetebol. Usando a mesma tecnologia de digitalização vista em Mortal Kombat, a desenvolvedora resolveu arriscar no campo dos jogos de esporte.",
+      year: 1992,
       imbScore: 5,
-      trailerYoutubeUrl: "https://www.youtube.com/watch?v=FYH9n37B7Yw",
-      gameplayYouTubeUrl: "https://www.youtube.com/watch?v=E2Ah8Dr9o2I",
+      trailerYoutubeUrl: "https://www.youtube.com/watch?v=cMp4yKaRqEg",
+      gameplayYouTubeUrl: "https://www.youtube.com/watch?v=f--9Wy-miCc",
     },
     {
       id: 3,
-      title: "Elden Ring",
+      title: "Zelda",
       coverImageUrl:
-        "https://upload.wikimedia.org/wikipedia/pt/0/0d/Elden_Ring_capa.jpg",
+        "https://i.ytimg.com/vi/uMFUlFiCTbE/maxresdefault.jpg",
       description:
-        "Elden Ring é um jogo eletrônico de RPG de ação desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. O jogo é um projeto colaborativo entre o diretor Hidetaka Miyazaki e o romancista de fantasia George R. R. Martin.",
-      year: 2022,
+        "é um jogo eletrônico de ação-aventura desenvolvido e publicado pela Nintendo para o Super Nintendo Entertainment System. É o terceiro jogo da série The Legend of Zelda, e foi lançado em 1991 no Japão e em 1992 na América do Norte e Europa. O lançamento foi um sucesso comercial e de crítica, sendo um marco para a Nintendo e é considerado como um dos melhores jogos de todos os tempos, inclusive pelo seu enredo,[1] e vendeu mais de quatro milhões de cópias em todo mundo.[2]",
+      year: 1988,
       imbScore: 5,
-      trailerYoutubeUrl: "https://www.youtube.com/watch?v=E3Huy2cdih0",
-      gameplayYouTubeUrl: "https://www.youtube.com/watch?v=JldMvQMO_5U",
+      trailerYoutubeUrl: "https://youtu.be/3Jm8_1zoZtw",
+      gameplayYouTubeUrl: "https://www.youtube.com/watch?v=AapOrKyf_F0",
     },
-    {
-      id: 4,
-      title: "Alan Wake Remastered",
-      coverImageUrl:
-        "https://elamigosedition.com/uploads/posts/2021-10/1633962915_alan-wake-remastered-cover-download.webp",
-      description: "Excelente remastered",
-      year: 2021,
-      imbScore: 4,
-      trailerYoutubeUrl: "https://www.youtube.com/watch?v=5Kz_lcugd5E",
-      gameplayYouTubeUrl: "https://www.youtube.com/watch?v=ScyOqZmM-iM",
-    },
-  ];
+  ]
