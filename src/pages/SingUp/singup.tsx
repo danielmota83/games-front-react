@@ -69,7 +69,7 @@ const SingUp = () => {
     <Style.SingupLogo src={Logo} alt="Logo Xbox" />
 
     <Style.SingupSection>
-      <Style.SingupH2>Cadastro de usuário</Style.SingupH2>
+      <Style.SingupH2>Cadastro de novo usuário</Style.SingupH2>
 
       <Style.SingupForm onSubmit={handleRegisterUser}>
 

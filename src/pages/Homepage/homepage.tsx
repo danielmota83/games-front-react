@@ -91,7 +91,7 @@ const Homepage = () => {
           onClick={UserConfigsNavigate}
         />
         <Style.ProfileName>{profileInfos?.title}</Style.ProfileName>
-        <Style.ProfileName>{profileInfos.user?.nickname}</Style.ProfileName>
+        <Style.ProfileName></Style.ProfileName>
       </Style.AdminProfileInfos>
 
       {profileInfos.user?.isAdmin === true ? (

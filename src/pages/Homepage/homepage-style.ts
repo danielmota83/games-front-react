@@ -50,7 +50,8 @@ export const ProfileImg = styled.img`
 export const ProfileName = styled.p`
   ${({ theme }) => css`
     ${theme.mixins.bodyStyle}
-    text-align: center;
+    text-align: left;
+    margin-top: 1px;
     color: #f4f5f9;
     ::selection {
       background: transparent;
@@ -95,11 +96,12 @@ export const ContentCard = styled.div`
 export const TitleGame = styled.h2`
   ${({ theme }) => css`
     ${theme.mixins.subTitleStyle}
-    font-size: 1.25rem;
+    font-size: 1.65rem;
+    text-shadow: 2rem .5rem .5rem gray
     line-height: 1.25rem;
     color: #f4f5f9;
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 1.9rem;
     margin-bottom: 1rem;
     ::selection {
       background: transparent;
@@ -111,7 +113,7 @@ export const TitleGame = styled.h2`
 export const CoverImageGame = styled.img`
   ${() => css`
     width: 350px;
-    height: 400px;
+    height: 290px;
     margin: 0 auto;
     border-radius: 10px;
     cursor: pointer;
