@@ -6,7 +6,7 @@ export const SectionItemsDiv = styled.section`
     align-items: center;
     position: absolute;
     top: 30px;
-    right: 275px;
+    right: 45px;
   `}
 `;
 
@@ -14,7 +14,7 @@ export const SepareItems = styled.div`
   ${() => css`
     display: flex;
     gap: 1rem;
-    margin: 0 0.6rem;
+    margin: 10 .6rem;
   `}
 `;
 
@@ -24,6 +24,7 @@ export const CreateGameIcon = styled.i`
     background-repeat: no-repeat;
     width: 55px;
     height: 55px;
+    margin-right:.2px;
     cursor: pointer;
   `}
 `;

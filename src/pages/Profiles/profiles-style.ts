@@ -41,7 +41,7 @@ export const ProfileDescription = styled.p`
     text-align: center;
     padding-top: 0.6rem;
     ${theme.mixins.bodyStyle}
-    font-size: 1.5rem;
+    font-size: 2rem;
   `}
 `;
 

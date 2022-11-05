@@ -6,6 +6,7 @@ import AddGames from '../icon/add_game.svg'
 import Category from '../icon/category.svg'
 import Standard from '../img/standard.png'
 import background from "../../assets/img/background.jpg";
+import background2 from "../../assets/img/snesbackground2.jpg";
 
 export const constants = {
     logoFontFamily: 'Roboto, sans-serif',
@@ -17,7 +18,7 @@ export const constants = {
     subTitleFontHeight: '140%',
 
     bodyFontFamily: 'Share Tech Mono, monospace',
-    bodyFontSize: '1.3rem',
+    bodyFontSize: '1.5rem',
     bodyLineHeight: '140%',
 
     SnesBackground: `url(${SnesBackground})`,
@@ -26,6 +27,7 @@ export const constants = {
     backIcon: `url(${BackIcon})`,
 
     loginBackground: `url(${background})`,
+    signupBackground: `url(${background2})`,
     homepageBackground: `url(${coolBackground})`,
     createGamesIcon: `url(${AddGames})`,
     createGenresIcon: `url(${Category})`,

@@ -3,7 +3,6 @@ import styled, { css } from "styled-components";
 
 export const Login = styled.section`
     ${({theme}) => css`
-        /* background-color: ${theme.colors.primaryBgColor}; */
         background-image: ${theme.constants.loginBackground};
         background-repeat: no-repeat;
         background-size: cover;

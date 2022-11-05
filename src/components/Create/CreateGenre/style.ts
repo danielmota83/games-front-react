@@ -6,7 +6,7 @@ export const SectionItemsDiv = styled.section`
     align-items: center;
     position: absolute;
     top: 30px;
-    right: 365px;
+    right: 115px;
   `}
 `;
 

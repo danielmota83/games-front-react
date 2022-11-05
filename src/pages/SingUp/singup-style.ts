@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const Singup = styled.main`
   ${({ theme }) => css`
-    background-color: ${theme.colors.primaryBgColor};
+    background-image: ${theme.constants.signupBackground}; 
     min-width: 100vw;
     min-height: 100vh;
     color: ${theme.colors.textColor};

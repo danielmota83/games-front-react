@@ -59,7 +59,7 @@ export const ContainerCard = styled.section`
 export const CoverImageGame = styled.img`
   ${() => css`
     width: 350px;
-    height: 400px;
+    height: 290px;
     margin: 0 auto;
     border-radius: 10px;
   `}
